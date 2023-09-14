@@ -1,0 +1,41 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+}
+header{
+    background-color: white;
+    padding: 10px;
+}
+header h1{
+    margin:0;
+    text-align: center;
+}
+.post{
+    background: white;
+    margin: 15px;
+    border-radius: 5px;
+}
+.post img{
+    width: 100%;
+    
+}
+.post h2, .post p{
+    padding: 5px;
+}
+.titulo{
+    display:flex;
+}
+.titulo h2:first-child{
+    width: 70%;
+    text-align: left;
+    padding: 5px;
+}
+.titulo span{
+    width: 30%;
+    text-align: right;
+    padding: 10px;
+}
+.container{
+    width: 600px;
+    margin: auto;
+}
